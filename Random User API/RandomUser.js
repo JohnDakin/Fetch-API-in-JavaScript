@@ -11,8 +11,8 @@ async function getRandomUser(url){
     }
 
     let data = await response.json()
-    console.log(`${data.results[0].name.first} ${data.results[0].name.last} is ${data.results[0].gender} in gender`);
-    console.log(data.results[0].picture.large)
+    // console.log(`${data.results[0].name.first} ${data.results[0].name.last} is ${data.results[0].gender} in gender`);
+    // console.log(data.results[0].picture.large)
 
     let randomUserImage = data.results[0].picture.large;
 
