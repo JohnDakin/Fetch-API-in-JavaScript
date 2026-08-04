@@ -27,3 +27,14 @@ body{
 .detailParagraph{
   font-weight: 500;
 }
+
+footer{
+  font-size: 15px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+
+}
+span{
+  font-weight: 900;
+}
